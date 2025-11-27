@@ -22,7 +22,7 @@ A telecom company wants to:
 3. Build a **dashboard** for business decisions  
 4. Provide **actionable insights** (e.g., risky customers, contract issues)
 
-You deliver the full pipeline from raw data → SQL → ML → Dashboard.
+This project delivers the full pipeline from raw data → SQL → ML → Dashboard.
 
 ---
 
@@ -53,9 +53,9 @@ You deliver the full pipeline from raw data → SQL → ML → Dashboard.
 
 ---
 
-## 🗄️ 1. SQL – Data Preparation
+# 🗄️ 1. SQL – Data Preparation
 
-All SQL queries are inside `/sql` folder.
+All SQL queries are inside the `/sql` folder.
 
 ### ✔ Create view for model input
 
@@ -76,18 +76,18 @@ FROM customers;
 
 ---
 
-## 🧼 2. Python – Data Cleaning Pipeline
+# 🧼 2. Python – Data Cleaning Pipeline (Very Important)
 
-Cleaning steps:
+Cleaning included:
 
-- Remove missing values  
-- Convert TotalCharges & MonthlyCharges to float  
-- Fix ChurnFlag to integer  
-- Handle outliers  
-- One-hot encoding for categories  
-- Scaling numerical columns  
-- Train/test split  
-- Export churn scores
+- Removing missing/blank values  
+- Converting TotalCharges & MonthlyCharges to float  
+- Fixing ChurnFlag to integer  
+- Removing outliers  
+- One-hot encoding categorical variables  
+- Scaling numeric columns  
+- Train-test split (stratified)  
+- Export of churn scores to CSV
 
 Output saved to:
 
@@ -97,47 +97,68 @@ data/churn_scores.csv
 
 ---
 
-## 🤖 3. Machine Learning Model
+# 🤖 3. Machine Learning Model
 
-- Logistic Regression  
-- Churn Probability for each customer  
-- Risk Segments:
-  - Low Risk  
-  - Medium Risk  
-  - High Risk  
+- Model: **Logistic Regression**  
+- Predicts churn probability for each customer  
+- Outputs risk segments:
+
+  - **Low Risk**  
+  - **Medium Risk**  
+  - **High Risk**
 
 ---
 
-## 📊 4. Power BI Dashboard
+# 📊 4. Power BI Dashboard
 
 File: `powerbi/Customer Churn Analysis.pbix`
 
 Includes:
 
-- 4 KPI Cards  
+- KPI Cards  
 - Churn by Contract Type  
-- Customers by Risk Segment  
-- Interactive slicers  
-- Customer score table  
+- Risk Segment Distribution  
+- Slicers  
+- Customer-level table  
 
 ---
 
-## 🖼 Dashboard Preview
+# 🖼 Dashboard Preview
 
 ![Dashboard](dashboard.png)
 
 ---
 
-## 🔍 5. Key Insights
+# 🔥 5. Business Insights (Executive Summary)
 
-- Month-to-month contract → highest churn  
-- Two-year contracts → lowest churn  
-- Most customers = medium risk  
-- Tenure strongly affects churn probability  
+### **1) Month‑to‑Month Customers Have the Highest Churn Risk**
+- Churn Rate = **31.8%**  
+- These customers cancel early and often.  
+**Recommendation:** Retention offers and loyalty incentives.
+
+### **2) Long‑Term Contracts Greatly Reduce Churn**
+- One‑year contract churn ≈ **15%**  
+- Two‑year contract churn ≈ **11%**  
+**Recommendation:** Promote contract upgrades to improve retention.
+
+### **3) Customer Tenure Is the Strongest Churn Indicator**
+- New customers churn far more frequently.  
+**Recommendation:** Target onboarding and early engagement in first 3 months.
+
+### **4) Majority of Customers Fall Into Medium Risk (0.30–0.60)**
+- This is the ideal group for proactive retention campaigns.  
+**Recommendation:** Send personalized offers and check‑ins.
+
+### **5) No Customers Classified as High Risk in This Dataset**
+- Distribution of churn probabilities is natural and stable.  
+**Recommendation:** Model performance is healthy; dataset may need more churn-heavy samples.
+
+### **6) Payment Method Influences Churn**
+- (Optional section if needed: churn by payment method)
 
 ---
 
-## ▶️ 6. How to Run
+# ▶️ 6. How to Run
 
 ### SQL  
 Use DB Browser for SQLite → open `churn.db`.
@@ -146,19 +167,20 @@ Use DB Browser for SQLite → open `churn.db`.
 Run `churn.ipynb` in Colab or VS Code.
 
 ### Power BI  
-Open file in `powerbi` folder.
+Open the `.pbix` file in the `powerbi` folder.
 
 ---
 
-## 🙌 Final Notes
+# 🙌 Final Notes
 
 This project demonstrates:
 
-- SQL  
-- Python ML  
-- Data Cleaning  
-- Power BI  
-- Business Insights  
-- Professional GitHub structure
+- SQL query writing  
+- End‑to‑end ML workflow  
+- Real‑world data cleaning  
+- Feature engineering  
+- Risk modeling  
+- Power BI dashboard design  
+- Professional GitHub structuring
 
-Perfect for Data Analyst, BI Analyst, and Junior Data Scientist roles.
+Perfect for **Data Analyst**, **BI Analyst**, and **Junior Data Scientist** roles.
