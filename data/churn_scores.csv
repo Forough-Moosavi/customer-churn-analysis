@@ -1,0 +1,501 @@
+CustomerID,Gender,Age,TenureMonths,ContractType,PaymentMethod,MonthlyCharges,TotalCharges,HasOnlineSupport,HasPhoneService,HasExtraServices,Churn,ChurnFlag,ChurnProbability,RiskSegment
+C0001,Male,38,2,Month-to-month,Credit card,80.06,220.98,Yes,Yes,Yes,Yes,1,0.3176521347109998,Medium
+C0002,Female,49,11,Month-to-month,Bank transfer,71.57,863.34,No,Yes,Yes,No,0,0.3678712151804268,Medium
+C0003,Male,40,51,Two year,Credit card,111.94,5758.86,Yes,Yes,No,No,0,0.18549183444818543,Low
+C0004,Male,50,39,One year,Bank transfer,69.7,2696.72,Yes,Yes,Yes,No,0,0.08272485284657906,Low
+C0005,Male,20,38,Month-to-month,Bank transfer,119.22,4550.55,Yes,Yes,Yes,Yes,1,0.3390288883415195,Medium
+C0006,Female,35,60,Two year,Direct debit,105.14,6307.19,Yes,Yes,Yes,Yes,1,0.18144082516271473,Low
+C0007,Male,42,34,Month-to-month,Direct debit,40.85,1343.71,Yes,Yes,No,No,0,0.2359052492348275,Low
+C0008,Male,59,38,One year,Direct debit,113.06,4312.5,Yes,Yes,No,Yes,1,0.20189070032064121,Low
+C0009,Male,48,50,Month-to-month,Bank transfer,31.64,1523.05,No,Yes,Yes,No,0,0.12476233127840884,Low
+C0010,Female,20,34,Month-to-month,Direct debit,101.74,3518.54,Yes,Yes,No,No,0,0.45972222894085574,Medium
+C0011,Male,57,18,Month-to-month,Credit card,58.06,1021.85,Yes,Yes,No,No,0,0.2885454212268522,Low
+C0012,Male,63,30,One year,Credit card,107.8,3244.06,Yes,Yes,No,No,0,0.1710309141568709,Low
+C0013,Male,41,15,Month-to-month,Bank transfer,106.81,1616.31,Yes,Yes,No,No,0,0.4290977913734568,Medium
+C0014,Male,67,27,Month-to-month,Bank transfer,100.59,2702.98,Yes,Yes,No,No,0,0.3888738355972588,Medium
+C0015,Female,49,51,Month-to-month,Direct debit,99.0,5078.33,Yes,Yes,No,No,0,0.41294698911704525,Medium
+C0016,Male,64,34,Month-to-month,Bank transfer,50.47,1692.23,Yes,Yes,No,No,0,0.2379013881387688,Low
+C0017,Female,39,52,Two year,Bank transfer,28.09,1504.24,Yes,Yes,Yes,No,0,0.06320132297529844,Low
+C0018,Female,40,57,Month-to-month,Credit card,60.3,3369.8,No,Yes,Yes,No,0,0.18663829478945126,Low
+C0019,Female,19,38,One year,Credit card,37.35,1425.62,No,No,Yes,No,0,0.06870484821836605,Low
+C0020,Male,44,33,Two year,Direct debit,89.5,3050.45,No,No,No,No,0,0.2133287802409526,Low
+C0021,Female,59,24,Month-to-month,Bank transfer,54.61,1260.62,No,Yes,No,No,0,0.34824001060303283,Medium
+C0022,Male,19,15,Month-to-month,Bank transfer,117.56,1729.51,Yes,Yes,Yes,No,0,0.37734944405893056,Medium
+C0023,Female,43,60,Month-to-month,Credit card,84.1,5071.7,No,Yes,No,Yes,1,0.3033794233998834,Medium
+C0024,Female,34,30,Month-to-month,Bank transfer,102.25,3076.48,Yes,Yes,Yes,No,0,0.36867288477245763,Medium
+C0025,Female,57,55,Month-to-month,Credit card,33.25,1846.28,No,No,Yes,No,0,0.137496230157075,Low
+C0026,Female,50,42,Month-to-month,Direct debit,106.2,4484.86,No,Yes,No,Yes,1,0.4800465081209685,Medium
+C0027,Female,26,51,One year,Credit card,112.28,5758.02,No,Yes,Yes,No,0,0.15200886726445506,Low
+C0028,Female,60,17,Month-to-month,Bank transfer,68.71,1223.55,No,No,Yes,No,0,0.34074870096238985,Medium
+C0029,Female,65,5,Month-to-month,Direct debit,80.63,423.64,Yes,Yes,No,Yes,1,0.49844622269102207,Medium
+C0030,Female,56,29,One year,Credit card,96.48,2785.86,Yes,Yes,No,Yes,1,0.1885224926880377,Low
+C0031,Male,46,4,Month-to-month,Credit card,37.48,183.55,Yes,No,Yes,No,0,0.23489042636747637,Low
+C0032,Male,59,10,Two year,Direct debit,70.26,797.59,Yes,Yes,No,No,0,0.22024452050047305,Low
+C0033,Female,43,56,One year,Direct debit,59.87,3346.09,Yes,Yes,No,No,0,0.10741195167955041,Low
+C0034,Female,52,17,Month-to-month,Credit card,34.64,540.15,Yes,Yes,Yes,No,0,0.23437326652992105,Low
+C0035,Female,67,10,One year,Bank transfer,56.75,622.85,No,Yes,Yes,No,0,0.14734334811619962,Low
+C0036,Male,42,17,Month-to-month,Credit card,26.82,449.92,Yes,Yes,No,No,0,0.22601483983506776,Low
+C0037,Female,41,60,Month-to-month,Direct debit,22.58,1246.17,No,Yes,Yes,No,0,0.12982646276447665,Low
+C0038,Male,30,20,Month-to-month,Credit card,33.52,712.77,No,No,No,Yes,1,0.238614169856589,Low
+C0039,Male,24,24,Month-to-month,Direct debit,116.31,2764.67,No,Yes,No,Yes,1,0.4810671348593664,Medium
+C0040,Male,53,5,One year,Direct debit,74.95,370.22,No,Yes,No,No,0,0.2051279390454261,Low
+C0041,Male,62,34,Month-to-month,Bank transfer,116.58,3980.32,Yes,Yes,Yes,Yes,1,0.34920498340445494,Medium
+C0042,Male,37,6,Month-to-month,Direct debit,63.25,389.02,No,Yes,No,No,0,0.403607807363934,Medium
+C0043,Female,18,53,Month-to-month,Direct debit,51.18,2748.01,No,Yes,Yes,No,0,0.20725923753519043,Low
+C0044,Female,25,2,One year,Bank transfer,70.61,119.45,Yes,Yes,Yes,No,0,0.16271267967173536,Low
+C0045,Female,63,13,Month-to-month,Direct debit,63.95,857.01,Yes,Yes,Yes,Yes,1,0.3596996481795328,Medium
+C0046,Female,33,43,Two year,Bank transfer,30.57,1301.53,No,Yes,Yes,No,0,0.08133894589397589,Low
+C0047,Female,31,43,Month-to-month,Bank transfer,84.08,3652.38,Yes,Yes,No,No,0,0.34842690758729544,Medium
+C0048,Male,29,48,Two year,Direct debit,41.6,2027.57,Yes,Yes,Yes,No,0,0.07206062417471865,Low
+C0049,Female,68,11,Two year,Direct debit,81.96,854.79,Yes,Yes,Yes,No,0,0.2293347954825332,Low
+C0050,Female,40,51,Two year,Credit card,85.02,4390.32,Yes,Yes,No,Yes,1,0.16526450210828963,Low
+C0051,Male,32,47,Two year,Bank transfer,35.2,1627.6,Yes,Yes,Yes,Yes,1,0.05899715981513739,Low
+C0052,Female,45,57,Month-to-month,Credit card,26.13,1529.81,No,Yes,No,No,0,0.15650099120629168,Low
+C0053,Male,51,23,One year,Direct debit,98.08,2274.2,Yes,Yes,Yes,No,0,0.15284253308991838,Low
+C0054,Female,19,55,Month-to-month,Credit card,65.98,3720.81,Yes,Yes,No,No,0,0.24272143384401237,Low
+C0055,Male,49,16,Month-to-month,Bank transfer,25.82,401.95,Yes,Yes,No,No,0,0.24311062325486654,Low
+C0056,Female,40,31,Month-to-month,Credit card,119.49,3686.72,Yes,Yes,Yes,No,0,0.39828958279512616,Medium
+C0057,Female,39,11,One year,Bank transfer,25.78,282.61,No,Yes,Yes,No,0,0.1078032574602939,Low
+C0058,Male,68,54,Month-to-month,Direct debit,89.5,4817.84,Yes,Yes,Yes,Yes,1,0.25651734614048577,Low
+C0059,Male,42,16,One year,Direct debit,118.37,1933.92,Yes,Yes,No,No,0,0.24327547219078108,Low
+C0060,Male,39,8,Two year,Bank transfer,43.92,270.54,Yes,Yes,Yes,No,0,0.12327778190608701,Low
+C0061,Male,39,4,One year,Direct debit,34.22,84.2,Yes,Yes,Yes,Yes,1,0.10904174350223386,Low
+C0062,Male,66,40,One year,Direct debit,32.14,1232.21,No,Yes,Yes,Yes,1,0.06323404139518887,Low
+C0063,Male,69,4,Two year,Direct debit,50.33,248.84,No,Yes,Yes,No,0,0.17183597767932832,Low
+C0064,Male,59,56,Two year,Direct debit,30.1,1771.13,Yes,Yes,Yes,Yes,1,0.05547792059937753,Low
+C0065,Male,23,25,One year,Bank transfer,89.22,2225.28,Yes,Yes,No,No,0,0.15312808884212434,Low
+C0066,Female,32,3,Two year,Credit card,26.23,70.25,Yes,Yes,Yes,Yes,1,0.13546623339257136,Low
+C0067,Female,60,32,Two year,Credit card,70.94,2273.58,Yes,Yes,Yes,No,0,0.1373306957930847,Low
+C0068,Male,54,3,Two year,Direct debit,119.67,417.1,Yes,Yes,No,No,0,0.3238205275918109,Medium
+C0069,Female,50,27,Month-to-month,Credit card,101.4,2691.43,Yes,Yes,No,No,0,0.428314528810283,Medium
+C0070,Female,25,29,Month-to-month,Credit card,81.52,2376.0,Yes,Yes,Yes,No,0,0.29620976848555214,Low
+C0071,Female,70,32,Month-to-month,Direct debit,50.63,1668.92,Yes,No,Yes,No,0,0.26297553233129783,Low
+C0072,Female,61,50,Month-to-month,Direct debit,82.39,4144.55,No,Yes,Yes,No,0,0.31194702960997844,Medium
+C0073,Male,61,58,One year,Credit card,72.7,4226.08,No,No,No,No,0,0.08820820261302713,Low
+C0074,Female,22,51,One year,Bank transfer,62.61,3243.16,Yes,Yes,Yes,No,0,0.079529070839257,Low
+C0075,Male,56,19,Two year,Direct debit,33.07,493.17,No,Yes,No,No,0,0.1480548524872288,Low
+C0076,Female,21,21,Month-to-month,Bank transfer,108.66,2315.75,Yes,Yes,No,No,0,0.47801199071705214,Medium
+C0077,Female,23,5,Two year,Credit card,64.98,292.2,Yes,No,No,No,0,0.21940149001764198,Low
+C0078,Female,62,18,One year,Direct debit,39.46,618.75,No,Yes,Yes,No,0,0.1240923803389436,Low
+C0079,Male,49,28,One year,Bank transfer,56.78,1615.4,No,Yes,Yes,No,0,0.08941741546751682,Low
+C0080,Female,69,42,Two year,Direct debit,61.41,2647.9,No,Yes,Yes,No,0,0.14193042298466077,Low
+C0081,Male,47,22,One year,Credit card,102.75,2253.63,Yes,Yes,Yes,No,0,0.13320114512454756,Low
+C0082,Female,64,21,Month-to-month,Bank transfer,93.36,2008.2,Yes,Yes,No,No,0,0.44798681984831634,Medium
+C0083,Male,52,6,Two year,Credit card,96.93,662.19,No,Yes,No,Yes,1,0.24783400024035335,Low
+C0084,Female,57,1,Month-to-month,Credit card,21.1,86.85,Yes,Yes,No,No,0,0.33483603058474276,Medium
+C0085,Male,69,5,Month-to-month,Direct debit,61.62,390.1,Yes,Yes,No,Yes,1,0.39582568560871007,Medium
+C0086,Male,33,41,Two year,Bank transfer,68.13,2830.44,Yes,Yes,Yes,No,0,0.0993071059873636,Low
+C0087,Female,30,12,Month-to-month,Credit card,21.92,266.81,Yes,Yes,Yes,Yes,1,0.22535409885991217,Low
+C0088,Male,67,26,One year,Credit card,45.98,1115.38,Yes,Yes,Yes,No,0,0.07151626753597953,Low
+C0089,Female,59,46,Month-to-month,Bank transfer,96.03,4405.08,Yes,No,No,No,0,0.3813273224981842,Medium
+C0090,Female,47,34,Two year,Credit card,33.71,1103.98,No,Yes,No,Yes,1,0.12095601906964733,Low
+C0091,Female,36,49,Month-to-month,Credit card,73.53,3711.52,Yes,Yes,No,No,0,0.2851142052844748,Low
+C0092,Female,34,14,Two year,Bank transfer,41.52,572.49,Yes,Yes,Yes,No,0,0.13794276720852391,Low
+C0093,Female,36,26,One year,Bank transfer,21.21,557.62,Yes,Yes,Yes,No,0,0.07302851740003752,Low
+C0094,Female,45,45,Month-to-month,Bank transfer,44.12,2012.97,Yes,Yes,No,No,0,0.23224368501048642,Low
+C0095,Female,43,27,One year,Bank transfer,117.59,3177.11,Yes,Yes,Yes,No,0,0.19490984777492765,Low
+C0096,Female,54,9,Two year,Direct debit,100.15,986.1,Yes,Yes,No,No,0,0.32860803105202707,Medium
+C0097,Female,43,26,Month-to-month,Bank transfer,115.96,2983.83,No,Yes,No,No,0,0.5103177489481258,Medium
+C0098,Female,70,57,Month-to-month,Direct debit,68.79,3930.76,Yes,Yes,No,No,0,0.29679696688317403,Low
+C0099,Female,40,47,Month-to-month,Direct debit,30.97,1418.47,No,Yes,Yes,Yes,1,0.18031828495894875,Low
+C0100,Male,26,57,Month-to-month,Direct debit,74.8,4197.6,Yes,Yes,Yes,No,0,0.20121398629678347,Low
+C0101,Male,29,22,One year,Credit card,65.44,1409.09,Yes,No,Yes,No,0,0.08904801365451002,Low
+C0102,Female,70,47,One year,Direct debit,104.44,4906.83,Yes,Yes,Yes,No,0,0.16655893828498985,Low
+C0103,Female,18,56,Month-to-month,Direct debit,29.81,1647.89,Yes,Yes,Yes,No,0,0.14161364846583546,Low
+C0104,Female,18,30,Month-to-month,Credit card,68.82,2029.98,No,Yes,No,No,0,0.33780554691530734,Medium
+C0105,Female,64,43,One year,Credit card,35.0,1434.68,Yes,Yes,No,No,0,0.0788666895123001,Low
+C0106,Female,51,48,Month-to-month,Credit card,52.47,2514.4,Yes,Yes,Yes,No,0,0.1822182706127712,Low
+C0107,Female,49,17,Month-to-month,Bank transfer,93.74,1518.34,No,Yes,Yes,No,0,0.39882796934070563,Medium
+C0108,Female,65,26,Two year,Credit card,67.6,1795.6,No,Yes,Yes,No,0,0.15376136337852966,Low
+C0109,Female,42,36,One year,Credit card,57.59,2077.36,No,Yes,Yes,No,0,0.09348894634111554,Low
+C0110,Male,57,1,One year,Direct debit,59.45,0.0,Yes,Yes,No,No,0,0.18066357961309312,Low
+C0111,Female,62,8,Two year,Credit card,65.94,512.06,No,Yes,Yes,No,0,0.18728804665425478,Low
+C0112,Male,70,49,Month-to-month,Bank transfer,98.5,4788.89,Yes,Yes,Yes,No,0,0.26663150007850667,Low
+C0113,Female,18,35,Two year,Credit card,109.21,3838.31,Yes,Yes,Yes,No,0,0.1921618988946517,Low
+C0114,Female,33,52,Month-to-month,Bank transfer,115.53,6074.58,Yes,Yes,No,Yes,1,0.4335895430568487,Medium
+C0115,Male,56,15,Month-to-month,Credit card,98.69,1386.59,Yes,Yes,No,No,0,0.3904619416676447,Medium
+C0116,Female,22,47,Month-to-month,Credit card,51.54,2428.13,Yes,Yes,Yes,No,0,0.1782269136982809,Low
+C0117,Male,39,56,Month-to-month,Credit card,88.81,4965.35,Yes,Yes,No,No,0,0.2594491597659431,Low
+C0118,Female,46,22,One year,Credit card,63.76,1436.29,No,Yes,No,No,0,0.15754664744271482,Low
+C0119,Female,20,14,Month-to-month,Bank transfer,45.47,647.24,Yes,Yes,No,No,0,0.3386750000199187,Medium
+C0120,Male,29,26,Month-to-month,Bank transfer,104.09,2668.74,Yes,Yes,Yes,No,0,0.32270110758417886,Medium
+C0121,Female,43,28,Month-to-month,Direct debit,23.84,651.57,Yes,Yes,No,Yes,1,0.2668925232824342,Low
+C0122,Male,33,23,Month-to-month,Bank transfer,110.18,2494.34,No,No,No,Yes,1,0.43090588423097353,Medium
+C0123,Female,68,14,One year,Credit card,66.15,979.9,Yes,Yes,No,Yes,1,0.17058715396794372,Low
+C0124,Male,54,24,Month-to-month,Direct debit,83.72,2010.35,Yes,Yes,No,No,0,0.38030017228074925,Medium
+C0125,Male,39,2,One year,Direct debit,85.94,266.94,No,Yes,No,No,0,0.22786853255446363,Low
+C0126,Female,46,45,Month-to-month,Direct debit,109.51,4924.92,No,Yes,Yes,No,0,0.4091302004547303,Medium
+C0127,Female,31,26,One year,Credit card,83.67,2140.0,Yes,Yes,No,No,0,0.16718582808308133,Low
+C0128,Male,45,14,Two year,Bank transfer,81.39,1063.77,Yes,No,No,No,0,0.19879130820267998,Low
+C0129,Female,22,59,Month-to-month,Credit card,26.67,1483.37,No,No,No,No,0,0.1456399236343457,Low
+C0130,Female,64,56,One year,Direct debit,71.84,3943.83,Yes,Yes,Yes,No,0,0.09826156432807591,Low
+C0131,Female,66,51,Month-to-month,Credit card,35.02,1799.38,Yes,No,No,Yes,1,0.18160775622091385,Low
+C0132,Male,47,7,Month-to-month,Credit card,93.74,681.62,No,No,No,Yes,1,0.41655640401610716,Medium
+C0133,Male,63,3,Two year,Bank transfer,71.22,134.6,Yes,Yes,Yes,No,0,0.1671349458989663,Low
+C0134,Male,69,47,Month-to-month,Bank transfer,88.02,4181.69,Yes,Yes,No,No,0,0.30287825282897923,Medium
+C0135,Male,22,23,Month-to-month,Direct debit,24.17,531.76,Yes,Yes,No,No,0,0.23394429394945043,Low
+C0136,Male,29,46,One year,Credit card,28.48,1317.42,Yes,Yes,No,No,0,0.052675794277907806,Low
+C0137,Male,33,43,Month-to-month,Credit card,91.63,4020.7,Yes,Yes,Yes,No,0,0.2412424784186746,Low
+C0138,Male,43,47,Two year,Bank transfer,27.21,1323.71,No,Yes,Yes,No,0,0.058078032456393563,Low
+C0139,Male,43,60,Month-to-month,Credit card,27.13,1614.37,Yes,No,No,No,0,0.11094369230997427,Low
+C0140,Male,65,45,Two year,Credit card,21.21,909.89,Yes,Yes,Yes,No,0,0.048643323844116924,Low
+C0141,Female,38,18,One year,Credit card,115.65,1974.11,Yes,Yes,No,Yes,1,0.23797907546556293,Low
+C0142,Male,56,58,One year,Bank transfer,93.75,5401.54,Yes,Yes,Yes,No,0,0.09113978537075731,Low
+C0143,Female,53,38,Two year,Direct debit,55.33,2091.98,No,No,No,Yes,1,0.17348624364873635,Low
+C0144,Female,50,35,Month-to-month,Direct debit,49.65,1688.39,Yes,No,Yes,No,0,0.2447563957690328,Low
+C0145,Female,47,51,Two year,Credit card,54.97,2796.91,Yes,Yes,No,No,0,0.11290745742258748,Low
+C0146,Male,54,15,Month-to-month,Direct debit,97.47,1465.89,Yes,Yes,Yes,No,0,0.3708380378973119,Medium
+C0147,Male,40,25,Month-to-month,Bank transfer,86.14,2142.26,Yes,Yes,Yes,No,0,0.28430017836642063,Low
+C0148,Male,27,55,Month-to-month,Bank transfer,38.52,2086.1,Yes,Yes,Yes,No,0,0.11563924044912605,Low
+C0149,Male,22,37,Month-to-month,Direct debit,37.41,1392.6,No,Yes,Yes,No,0,0.18108179341960376,Low
+C0150,Female,53,28,Month-to-month,Direct debit,29.84,857.62,No,Yes,No,No,0,0.30001349653463394,Medium
+C0151,Male,51,10,Two year,Credit card,86.03,805.78,Yes,Yes,No,No,0,0.2052007141967901,Low
+C0152,Male,69,39,Two year,Direct debit,96.44,3831.71,Yes,Yes,Yes,No,0,0.16511065686402007,Low
+C0153,Male,48,57,Two year,Credit card,46.5,2645.57,No,Yes,No,No,0,0.07820710829925716,Low
+C0154,Male,27,17,Month-to-month,Credit card,22.09,376.47,No,Yes,Yes,No,0,0.17996288279851372,Low
+C0155,Male,36,39,One year,Bank transfer,28.22,1135.99,Yes,Yes,No,No,0,0.06494441153148509,Low
+C0156,Female,49,22,Month-to-month,Bank transfer,116.79,2581.04,Yes,Yes,No,No,0,0.5052247344718306,Medium
+C0157,Male,18,26,Month-to-month,Bank transfer,49.54,1335.7,Yes,Yes,No,No,0,0.2530111830096379,Low
+C0158,Female,22,44,Month-to-month,Bank transfer,96.92,4278.84,No,Yes,Yes,Yes,1,0.3332723856545836,Medium
+C0159,Male,62,25,Month-to-month,Direct debit,82.47,2031.13,No,Yes,No,No,0,0.39311201205888296,Medium
+C0160,Female,21,17,One year,Bank transfer,58.19,1007.31,Yes,Yes,Yes,No,0,0.12103122897624233,Low
+C0161,Male,33,13,One year,Direct debit,40.57,470.22,Yes,Yes,No,No,0,0.12839005420265912,Low
+C0162,Male,41,20,Month-to-month,Bank transfer,32.14,648.23,No,Yes,Yes,No,0,0.2022407641650787,Low
+C0163,Female,33,25,Month-to-month,Direct debit,81.5,2035.84,No,Yes,No,No,0,0.4457270988036384,Medium
+C0164,Female,19,4,Month-to-month,Credit card,97.46,379.43,No,Yes,No,Yes,1,0.49111759799672927,Medium
+C0165,Female,66,10,Month-to-month,Direct debit,84.39,837.47,No,No,No,No,0,0.5065630264421129,Medium
+C0166,Male,45,3,Two year,Direct debit,73.03,125.0,Yes,Yes,Yes,Yes,1,0.18627781295190915,Low
+C0167,Female,49,41,Month-to-month,Bank transfer,24.2,964.76,Yes,Yes,No,No,0,0.19831591108111993,Low
+C0168,Male,44,45,Month-to-month,Direct debit,116.85,5262.89,Yes,No,Yes,No,0,0.3518528689992586,Medium
+C0169,Male,37,18,Month-to-month,Credit card,99.87,1805.65,Yes,Yes,No,No,0,0.383794665639587,Medium
+C0170,Female,41,47,Two year,Credit card,49.28,2264.78,Yes,Yes,Yes,No,0,0.08423370594652008,Low
+C0171,Female,29,36,Two year,Bank transfer,118.0,4311.29,No,Yes,Yes,No,0,0.23880934738154477,Low
+C0172,Male,67,47,One year,Credit card,80.19,3725.62,Yes,Yes,No,No,0,0.1054169892853671,Low
+C0173,Male,52,22,One year,Direct debit,78.24,1769.75,No,Yes,Yes,No,0,0.13678482123480504,Low
+C0174,Female,50,34,Month-to-month,Credit card,94.81,3244.9,Yes,Yes,Yes,Yes,1,0.32435962519062145,Medium
+C0175,Female,50,47,Month-to-month,Bank transfer,101.18,4723.15,No,No,Yes,Yes,1,0.342026000842441,Medium
+C0176,Female,68,8,Two year,Direct debit,85.65,773.97,Yes,No,Yes,No,0,0.2432415136628722,Low
+C0177,Male,60,40,One year,Bank transfer,32.81,1252.72,Yes,Yes,No,No,0,0.06845437623757342,Low
+C0178,Male,54,49,One year,Direct debit,53.83,2683.63,Yes,Yes,No,No,0,0.08842834269702826,Low
+C0179,Male,29,44,One year,Credit card,112.81,5013.67,Yes,Yes,Yes,No,0,0.12200447052585485,Low
+C0180,Male,20,19,One year,Bank transfer,42.46,773.21,No,No,Yes,No,0,0.08441833591277685,Low
+C0181,Male,18,42,One year,Bank transfer,57.22,2472.86,No,No,Yes,No,0,0.07049159017475486,Low
+C0182,Male,50,41,Two year,Direct debit,63.21,2579.11,Yes,Yes,Yes,Yes,1,0.10698543966815241,Low
+C0183,Female,57,37,Two year,Bank transfer,63.94,2380.21,Yes,Yes,No,No,0,0.1643823071721586,Low
+C0184,Male,27,6,One year,Direct debit,81.29,500.76,Yes,Yes,No,Yes,1,0.19589777580861098,Low
+C0185,Male,60,52,One year,Direct debit,114.31,5937.4,Yes,Yes,Yes,No,0,0.1441344931456454,Low
+C0186,Male,61,26,Month-to-month,Direct debit,44.07,1186.36,No,Yes,Yes,No,0,0.23435840382055448,Low
+C0187,Female,46,34,One year,Direct debit,32.15,1132.77,No,Yes,Yes,No,0,0.08812406036453423,Low
+C0188,Male,30,59,Month-to-month,Credit card,39.75,2257.82,Yes,Yes,No,No,0,0.1331029210619917,Low
+C0189,Male,29,56,One year,Direct debit,108.69,6151.86,No,Yes,No,Yes,1,0.17433408307266646,Low
+C0190,Female,48,59,Two year,Bank transfer,84.58,4907.1,Yes,Yes,Yes,No,0,0.12434615256425344,Low
+C0191,Male,63,45,One year,Credit card,48.59,2238.18,No,No,Yes,No,0,0.05841692240280776,Low
+C0192,Male,19,6,Month-to-month,Bank transfer,101.59,665.88,Yes,Yes,No,No,0,0.4344211314838334,Medium
+C0193,Male,68,37,Month-to-month,Credit card,106.14,3872.63,No,Yes,No,Yes,1,0.3792514904819441,Medium
+C0194,Male,67,57,Month-to-month,Direct debit,104.65,5944.51,No,Yes,Yes,No,0,0.31183649619265347,Medium
+C0195,Male,52,33,One year,Credit card,111.89,3637.08,Yes,Yes,Yes,No,0,0.13322469760432368,Low
+C0196,Female,40,53,Month-to-month,Credit card,45.22,2385.91,No,Yes,Yes,No,0,0.16402813683885925,Low
+C0197,Female,34,22,Month-to-month,Bank transfer,95.5,2085.6,Yes,Yes,No,No,0,0.4411244528862781,Medium
+C0198,Female,43,21,Month-to-month,Bank transfer,66.05,1426.03,Yes,Yes,Yes,No,0,0.30342169252721163,Medium
+C0199,Male,25,6,One year,Direct debit,104.2,690.72,Yes,Yes,Yes,Yes,1,0.18346287957930424,Low
+C0200,Male,46,6,One year,Credit card,92.85,626.88,No,Yes,No,No,0,0.19500490854909858,Low
+C0201,Male,43,55,Month-to-month,Credit card,97.64,5342.09,No,Yes,Yes,Yes,1,0.245831556769573,Low
+C0202,Female,27,48,Month-to-month,Credit card,85.62,4099.3,No,Yes,No,No,0,0.3362834883225948,Medium
+C0203,Male,43,4,Month-to-month,Direct debit,37.74,66.79,No,Yes,Yes,No,0,0.2909566558944127,Low
+C0204,Male,51,30,One year,Direct debit,74.5,2194.71,Yes,Yes,Yes,No,0,0.11081201945308652,Low
+C0205,Female,68,11,One year,Direct debit,118.47,1351.41,No,Yes,No,Yes,1,0.3250366843937903,Medium
+C0206,Male,58,30,Month-to-month,Direct debit,113.74,3492.98,Yes,Yes,Yes,Yes,1,0.3817939150480916,Medium
+C0207,Female,24,31,One year,Direct debit,24.32,692.2,Yes,Yes,No,No,0,0.10047030864763525,Low
+C0208,Female,21,24,Month-to-month,Bank transfer,36.48,845.9,Yes,Yes,No,Yes,1,0.27911711153354224,Low
+C0209,Female,70,55,Two year,Credit card,33.17,1823.03,No,Yes,Yes,No,0,0.06586972228336041,Low
+C0210,Male,67,9,Month-to-month,Credit card,92.6,847.41,No,Yes,No,No,0,0.41643145496448736,Medium
+C0211,Male,62,55,Month-to-month,Credit card,101.78,5557.42,Yes,Yes,Yes,No,0,0.2468949861284251,Low
+C0212,Male,28,3,Month-to-month,Credit card,41.35,145.25,Yes,Yes,No,No,0,0.30156786297638405,Medium
+C0213,Male,46,51,One year,Credit card,70.59,3576.4,No,No,Yes,No,0,0.07007084941291633,Low
+C0214,Male,53,31,Two year,Credit card,104.07,3225.45,Yes,Yes,No,No,0,0.2003902783526316,Low
+C0215,Male,42,40,Month-to-month,Credit card,93.28,3758.51,No,Yes,Yes,No,0,0.26713941079263065,Low
+C0216,Male,38,37,One year,Credit card,74.22,2746.46,No,Yes,Yes,No,0,0.08854036932741365,Low
+C0217,Female,53,36,One year,Bank transfer,79.03,2823.26,Yes,Yes,No,No,0,0.1561141547793584,Low
+C0218,Male,27,24,Month-to-month,Credit card,70.84,1694.68,Yes,Yes,No,No,0,0.292847031902131,Low
+C0219,Female,54,31,Month-to-month,Bank transfer,49.75,1537.83,No,Yes,Yes,No,0,0.2504443530574457,Low
+C0220,Male,26,6,Two year,Direct debit,76.5,440.5,No,No,Yes,No,0,0.19273424539175138,Low
+C0221,Male,41,2,Month-to-month,Credit card,88.89,164.84,Yes,Yes,No,No,0,0.40212445849775325,Medium
+C0222,Male,52,20,Month-to-month,Direct debit,107.33,2226.53,No,Yes,No,Yes,1,0.4760635946926119,Medium
+C0223,Female,66,28,Two year,Direct debit,83.63,2369.69,Yes,Yes,Yes,No,0,0.19717573290639834,Low
+C0224,Female,52,11,Month-to-month,Direct debit,96.11,1042.44,Yes,Yes,Yes,No,0,0.4385410597883538,Medium
+C0225,Female,65,4,Month-to-month,Bank transfer,36.01,178.89,No,Yes,Yes,Yes,1,0.3209304655016703,Medium
+C0226,Female,53,15,Month-to-month,Direct debit,66.16,975.71,No,Yes,No,No,0,0.4434500805747151,Medium
+C0227,Male,35,6,Two year,Direct debit,20.93,184.24,Yes,Yes,Yes,No,0,0.12034217533683256,Low
+C0228,Female,66,54,Month-to-month,Direct debit,44.67,2430.66,No,Yes,Yes,No,0,0.1968223423031052,Low
+C0229,Male,56,49,Month-to-month,Credit card,92.65,4534.48,Yes,No,No,No,0,0.2883813648773155,Low
+C0230,Male,49,30,Month-to-month,Credit card,119.18,3597.79,Yes,No,Yes,Yes,1,0.34032205749206734,Medium
+C0231,Female,41,56,Month-to-month,Bank transfer,29.92,1596.98,Yes,Yes,Yes,No,0,0.12794211568703526,Low
+C0232,Female,40,38,Month-to-month,Bank transfer,60.15,2229.36,No,Yes,Yes,No,0,0.24996106785068267,Low
+C0233,Female,49,51,Month-to-month,Credit card,100.01,5040.81,Yes,No,Yes,No,0,0.2945356915206418,Low
+C0234,Female,54,57,One year,Bank transfer,40.4,2309.95,Yes,No,Yes,No,0,0.053832675182651946,Low
+C0235,Female,29,2,Month-to-month,Credit card,75.51,237.65,Yes,Yes,No,No,0,0.4356066098847908,Medium
+C0236,Female,66,15,Month-to-month,Direct debit,93.31,1511.22,No,Yes,Yes,No,0,0.4467755056219967,Medium
+C0237,Female,30,11,Month-to-month,Direct debit,81.6,929.5,Yes,Yes,No,No,0,0.4721662646521813,Medium
+C0238,Female,40,8,Month-to-month,Bank transfer,38.8,335.44,No,Yes,No,No,0,0.37081158836597716,Medium
+C0239,Male,42,26,Month-to-month,Credit card,55.54,1353.99,Yes,No,No,No,0,0.2505827638199438,Low
+C0240,Female,52,51,One year,Credit card,98.38,4990.25,Yes,Yes,Yes,No,0,0.12146444582837713,Low
+C0241,Female,58,45,Month-to-month,Bank transfer,75.42,3354.51,Yes,No,Yes,No,0,0.2569738475846422,Low
+C0242,Male,47,44,Month-to-month,Credit card,20.52,871.84,No,Yes,Yes,No,0,0.11254711811360005,Low
+C0243,Female,34,5,Month-to-month,Direct debit,96.1,472.09,No,No,Yes,No,0,0.4661153522276987,Medium
+C0244,Male,66,6,Two year,Bank transfer,23.53,117.58,Yes,Yes,Yes,No,0,0.11119366598757688,Low
+C0245,Male,37,26,One year,Bank transfer,94.57,2359.86,Yes,Yes,No,No,0,0.1602868101987085,Low
+C0246,Female,65,54,One year,Credit card,40.25,2210.9,Yes,Yes,Yes,No,0,0.053883798137666805,Low
+C0247,Male,42,4,Month-to-month,Bank transfer,115.81,409.6,Yes,Yes,Yes,No,0,0.4012837871810801,Medium
+C0248,Male,39,19,Two year,Credit card,56.79,1090.97,Yes,Yes,Yes,No,0,0.1107588121697012,Low
+C0249,Male,30,20,Month-to-month,Credit card,52.69,1157.5,Yes,No,No,No,0,0.26511642528506324,Low
+C0250,Male,36,33,Month-to-month,Credit card,34.89,1105.4,Yes,Yes,Yes,No,0,0.14788784556648374,Low
+C0251,Female,66,20,Month-to-month,Credit card,50.56,884.69,Yes,No,No,No,0,0.31509825944033415,Medium
+C0252,Male,53,49,Month-to-month,Credit card,107.67,5261.53,Yes,No,Yes,No,0,0.27153104399804706,Low
+C0253,Female,29,12,Two year,Bank transfer,119.63,1490.61,No,Yes,No,No,0,0.3443559717368803,Medium
+C0254,Male,58,47,One year,Direct debit,56.83,2768.93,Yes,Yes,No,No,0,0.09560427728316562,Low
+C0255,Male,36,1,Month-to-month,Direct debit,64.86,3.38,Yes,Yes,Yes,No,0,0.33550599975378687,Medium
+C0256,Male,29,26,One year,Bank transfer,92.21,2422.29,No,Yes,Yes,No,0,0.13039616006365415,Low
+C0257,Male,26,14,Two year,Bank transfer,108.62,1497.41,Yes,Yes,Yes,Yes,1,0.1956256758745186,Low
+C0258,Female,24,38,Two year,Direct debit,79.3,3008.1,Yes,Yes,Yes,No,0,0.1628506444298771,Low
+C0259,Female,45,37,One year,Direct debit,59.15,2320.77,Yes,Yes,No,No,0,0.14038933130355402,Low
+C0260,Male,31,11,Two year,Direct debit,61.26,598.71,Yes,Yes,No,No,0,0.19494992579944553,Low
+C0261,Male,48,36,Two year,Direct debit,89.56,3236.85,Yes,Yes,No,No,0,0.19634660111390023,Low
+C0262,Female,69,13,One year,Direct debit,20.32,287.54,Yes,Yes,No,No,0,0.14002580895848063,Low
+C0263,Male,36,43,Month-to-month,Credit card,81.96,3578.57,No,No,Yes,Yes,1,0.22875811971956378,Low
+C0264,Male,64,3,Month-to-month,Bank transfer,55.55,171.55,Yes,Yes,Yes,Yes,1,0.29021569064508335,Low
+C0265,Male,33,33,Two year,Credit card,99.42,3296.26,Yes,No,No,No,0,0.1831531210578237,Low
+C0266,Female,70,6,Month-to-month,Direct debit,29.3,156.22,Yes,Yes,Yes,No,0,0.3124198770290219,Medium
+C0267,Female,22,50,Two year,Direct debit,78.82,3954.46,Yes,Yes,No,No,0,0.1815533476917726,Low
+C0268,Female,52,56,Month-to-month,Direct debit,68.1,3796.44,Yes,Yes,Yes,No,0,0.23540728943706005,Low
+C0269,Male,29,10,Month-to-month,Credit card,84.23,873.38,No,Yes,Yes,No,0,0.3173461114659872,Medium
+C0270,Male,42,5,Month-to-month,Credit card,26.49,113.97,Yes,Yes,No,No,0,0.2688589722220364,Low
+C0271,Female,69,23,Month-to-month,Direct debit,78.0,1812.86,Yes,Yes,Yes,No,0,0.36287598356085654,Medium
+C0272,Female,38,10,Two year,Credit card,76.15,760.04,Yes,Yes,No,No,0,0.23106899742599313,Low
+C0273,Female,53,44,Two year,Credit card,76.07,3403.38,Yes,Yes,No,No,0,0.16222759891866226,Low
+C0274,Female,70,2,Two year,Direct debit,80.35,158.13,No,Yes,No,Yes,1,0.3252095713890491,Medium
+C0275,Male,40,13,One year,Credit card,87.65,1050.8,Yes,Yes,No,No,0,0.16068648623300433,Low
+C0276,Female,33,40,Month-to-month,Bank transfer,100.5,4083.1,Yes,Yes,No,No,0,0.41017141918973854,Medium
+C0277,Male,56,2,Month-to-month,Bank transfer,46.98,48.67,Yes,Yes,No,No,0,0.3381821229243841,Medium
+C0278,Female,62,20,One year,Bank transfer,102.5,2017.31,No,Yes,Yes,No,0,0.1929400156920088,Low
+C0279,Male,70,1,Month-to-month,Bank transfer,69.83,40.05,Yes,Yes,Yes,No,0,0.32369970179006574,Medium
+C0280,Female,59,37,Month-to-month,Direct debit,27.71,1093.99,Yes,Yes,No,No,0,0.24749627594425583,Low
+C0281,Female,56,9,Month-to-month,Direct debit,25.86,125.96,No,No,Yes,No,0,0.30107311934410663,Medium
+C0282,Female,31,17,Month-to-month,Direct debit,53.42,1065.03,No,Yes,Yes,Yes,1,0.33389255391189926,Medium
+C0283,Female,48,9,Two year,Bank transfer,98.49,939.21,Yes,Yes,Yes,No,0,0.23606904266144557,Low
+C0284,Male,22,11,Two year,Bank transfer,90.77,1009.63,Yes,Yes,No,No,0,0.22025635343157896,Low
+C0285,Female,52,15,Month-to-month,Credit card,98.86,1480.16,Yes,Yes,No,Yes,1,0.4547641357500078,Medium
+C0286,Male,40,24,One year,Credit card,71.73,1735.8,Yes,Yes,Yes,No,0,0.09510247640836059,Low
+C0287,Male,46,38,One year,Bank transfer,64.02,2458.82,Yes,Yes,No,No,0,0.10265401125730036,Low
+C0288,Male,60,55,Month-to-month,Bank transfer,34.75,1943.51,Yes,Yes,No,No,0,0.14786349658175962,Low
+C0289,Male,28,35,Two year,Bank transfer,52.82,1876.48,Yes,Yes,No,No,0,0.11681003352948018,Low
+C0290,Female,35,30,Two year,Bank transfer,63.4,1906.48,Yes,Yes,No,No,0,0.17477506109914057,Low
+C0291,Male,64,31,Month-to-month,Credit card,28.86,884.79,Yes,Yes,No,No,0,0.18896492521292063,Low
+C0292,Male,29,49,Month-to-month,Bank transfer,42.06,2053.38,No,Yes,Yes,No,0,0.14274061135011523,Low
+C0293,Male,26,5,Month-to-month,Credit card,79.82,389.35,Yes,Yes,No,Yes,1,0.3702456217265864,Medium
+C0294,Female,27,60,Month-to-month,Bank transfer,93.57,5670.89,Yes,Yes,Yes,No,0,0.2711404635305359,Low
+C0295,Female,61,44,Month-to-month,Bank transfer,119.83,5302.2,Yes,Yes,No,Yes,1,0.47213725488476,Medium
+C0296,Female,34,50,Two year,Bank transfer,113.31,5518.48,No,Yes,No,Yes,1,0.25540022768546305,Low
+C0297,Female,55,14,Month-to-month,Credit card,84.26,1212.44,Yes,Yes,Yes,Yes,1,0.35239912047335137,Medium
+C0298,Male,24,53,Month-to-month,Credit card,62.12,3302.1,Yes,Yes,Yes,No,0,0.15155685762227955,Low
+C0299,Male,63,56,Two year,Direct debit,83.62,4681.78,Yes,Yes,No,Yes,1,0.1512855122992334,Low
+C0300,Female,30,11,One year,Bank transfer,98.57,1064.84,Yes,Yes,Yes,No,0,0.18456081925324472,Low
+C0301,Male,57,9,Month-to-month,Direct debit,31.83,342.68,Yes,Yes,No,No,0,0.3129880442456896,Medium
+C0302,Male,59,34,Month-to-month,Direct debit,60.99,2121.04,Yes,Yes,Yes,Yes,1,0.23369704738825214,Low
+C0303,Male,26,12,Month-to-month,Credit card,103.98,1209.12,Yes,Yes,Yes,No,0,0.33568993744347003,Medium
+C0304,Female,67,35,One year,Credit card,58.38,2063.65,No,Yes,No,No,0,0.12783805883922286,Low
+C0305,Female,44,35,Month-to-month,Direct debit,77.19,2653.07,Yes,Yes,No,No,0,0.38407672712175944,Medium
+C0306,Male,19,1,Month-to-month,Bank transfer,78.78,9.8,Yes,No,No,Yes,1,0.39263364953285407,Medium
+C0307,Female,22,40,Two year,Credit card,38.45,1506.66,No,Yes,Yes,No,0,0.08667968976137838,Low
+C0308,Female,46,22,Month-to-month,Bank transfer,56.22,1279.96,Yes,Yes,No,No,0,0.3417664455805807,Medium
+C0309,Female,54,60,Two year,Bank transfer,53.45,3254.66,Yes,Yes,No,No,0,0.10550599961337491,Low
+C0310,Female,55,29,Two year,Direct debit,22.62,681.63,Yes,No,No,No,0,0.1324757329483206,Low
+C0311,Female,36,8,Month-to-month,Direct debit,22.42,215.61,Yes,No,No,Yes,1,0.3454509283028718,Medium
+C0312,Male,25,11,Two year,Direct debit,103.17,1160.68,No,Yes,No,No,0,0.2841693925455043,Low
+C0313,Female,65,41,Month-to-month,Direct debit,47.31,1907.64,No,Yes,Yes,No,0,0.24020983155364808,Low
+C0314,Male,62,37,Two year,Credit card,71.81,2678.57,Yes,Yes,Yes,No,0,0.10447665614580316,Low
+C0315,Male,18,14,One year,Credit card,49.87,738.2,Yes,Yes,No,Yes,1,0.11315671482358435,Low
+C0316,Female,39,60,One year,Direct debit,114.07,6881.91,No,Yes,Yes,No,0,0.1762086257700494,Low
+C0317,Male,69,30,Month-to-month,Credit card,45.93,1437.35,No,Yes,No,Yes,1,0.24234838344301335,Low
+C0318,Male,34,35,Two year,Direct debit,62.97,2239.37,No,Yes,Yes,No,0,0.12246675727390546,Low
+C0319,Male,24,21,One year,Bank transfer,107.27,2270.24,Yes,Yes,No,Yes,1,0.18862836483434803,Low
+C0320,Female,42,37,Month-to-month,Bank transfer,104.19,3908.54,Yes,No,No,Yes,1,0.42853494626472166,Medium
+C0321,Female,62,5,Two year,Bank transfer,38.61,191.72,No,Yes,Yes,No,0,0.16921100271931022,Low
+C0322,Male,21,19,Month-to-month,Direct debit,100.26,1860.85,Yes,Yes,Yes,Yes,1,0.35800660173129945,Medium
+C0323,Female,53,59,Month-to-month,Bank transfer,65.82,3875.23,Yes,Yes,Yes,No,0,0.1990426193183059,Low
+C0324,Female,23,14,Month-to-month,Credit card,68.3,918.95,Yes,Yes,No,No,0,0.3733111777197635,Medium
+C0325,Female,48,26,Month-to-month,Bank transfer,33.35,833.34,Yes,Yes,No,No,0,0.27024390966410566,Low
+C0326,Female,36,4,Month-to-month,Bank transfer,28.06,105.01,Yes,Yes,Yes,Yes,1,0.282156663024349,Low
+C0327,Male,61,25,Two year,Bank transfer,92.79,2280.13,Yes,No,No,No,0,0.2005461840361922,Low
+C0328,Male,56,45,Month-to-month,Credit card,69.65,3118.85,No,Yes,Yes,No,0,0.19989534873175452,Low
+C0329,Female,44,42,One year,Direct debit,63.69,2580.3,Yes,Yes,Yes,No,0,0.10397988217808384,Low
+C0330,Female,27,25,Month-to-month,Credit card,92.95,2334.41,No,Yes,No,No,0,0.42385579069085605,Medium
+C0331,Male,43,18,Two year,Direct debit,96.55,1737.96,Yes,Yes,Yes,No,0,0.19418146571838674,Low
+C0332,Male,36,40,Two year,Direct debit,35.89,1394.75,Yes,Yes,Yes,No,0,0.0765180210491487,Low
+C0333,Female,56,8,Month-to-month,Bank transfer,81.02,681.12,No,Yes,Yes,Yes,1,0.39960369952307145,Medium
+C0334,Male,20,39,Two year,Direct debit,33.54,1354.94,Yes,Yes,Yes,No,0,0.07516414580270227,Low
+C0335,Female,62,40,Month-to-month,Credit card,95.14,3725.22,Yes,Yes,Yes,No,0,0.3107526684153447,Medium
+C0336,Female,30,14,Two year,Credit card,85.7,1161.66,Yes,Yes,Yes,No,0,0.18711649566997313,Low
+C0337,Male,67,32,Month-to-month,Direct debit,115.66,3662.66,Yes,Yes,No,No,0,0.4540366298314166,Medium
+C0338,Male,45,51,Two year,Bank transfer,26.9,1324.9,No,Yes,Yes,No,0,0.05325818509583652,Low
+C0339,Female,37,38,Month-to-month,Bank transfer,25.71,1018.45,No,Yes,No,Yes,1,0.22345438825236721,Low
+C0340,Female,45,33,One year,Credit card,48.22,1581.57,Yes,Yes,Yes,No,0,0.0819433437779703,Low
+C0341,Male,25,23,One year,Bank transfer,46.17,1048.68,Yes,Yes,Yes,No,0,0.07813241957147676,Low
+C0342,Female,58,15,Month-to-month,Direct debit,44.7,570.31,Yes,Yes,No,Yes,1,0.3705780521780918,Medium
+C0343,Male,56,33,Month-to-month,Direct debit,110.63,3682.56,No,Yes,No,Yes,1,0.45433211313337823,Medium
+C0344,Female,18,25,Month-to-month,Credit card,44.95,1061.79,Yes,Yes,Yes,No,0,0.22229016163939563,Low
+C0345,Male,20,17,Month-to-month,Direct debit,47.19,805.23,Yes,No,No,Yes,1,0.30252255456549715,Medium
+C0346,Male,30,33,One year,Credit card,95.94,3179.89,Yes,No,No,No,0,0.14133257155346293,Low
+C0347,Male,45,47,Month-to-month,Direct debit,64.97,3121.62,Yes,Yes,No,No,0,0.25968238920169096,Low
+C0348,Female,66,55,Month-to-month,Credit card,97.67,5306.41,Yes,Yes,No,No,0,0.34877241583353696,Medium
+C0349,Female,42,2,Month-to-month,Bank transfer,26.54,0.0,No,Yes,Yes,No,0,0.3034365700784212,Medium
+C0350,Male,50,14,Two year,Direct debit,68.76,971.83,Yes,Yes,Yes,No,0,0.1606399292275423,Low
+C0351,Female,55,53,Month-to-month,Direct debit,23.36,1328.11,Yes,Yes,No,No,0,0.18385148625125952,Low
+C0352,Male,70,40,Month-to-month,Credit card,26.27,1112.75,No,Yes,Yes,No,0,0.13349401325375704,Low
+C0353,Male,23,40,Month-to-month,Credit card,110.64,4436.08,No,Yes,No,Yes,1,0.37677972074764915,Medium
+C0354,Female,61,51,Month-to-month,Direct debit,33.92,1705.34,Yes,Yes,Yes,Yes,1,0.16810595071196538,Low
+C0355,Female,62,39,Two year,Credit card,73.24,2896.72,Yes,Yes,Yes,No,0,0.13010812372606653,Low
+C0356,Male,49,51,Month-to-month,Direct debit,61.11,3067.93,Yes,Yes,No,Yes,1,0.23612640162542467,Low
+C0357,Female,62,6,Month-to-month,Bank transfer,54.73,352.2,Yes,Yes,Yes,Yes,1,0.33300977538558885,Medium
+C0358,Female,64,6,One year,Credit card,109.98,685.15,Yes,Yes,No,Yes,1,0.25606575377014795,Low
+C0359,Male,38,3,One year,Direct debit,22.18,119.55,Yes,Yes,No,No,0,0.13236074302369444,Low
+C0360,Male,33,7,Month-to-month,Bank transfer,86.38,742.64,Yes,No,No,Yes,1,0.40026655526703586,Medium
+C0361,Female,38,51,One year,Bank transfer,116.34,5952.96,No,Yes,No,Yes,1,0.2189150825731811,Low
+C0362,Male,28,8,Two year,Direct debit,76.02,582.71,Yes,Yes,No,No,0,0.22628542215977054,Low
+C0363,Male,54,42,Month-to-month,Credit card,113.68,4773.28,Yes,Yes,No,No,0,0.37175337734087166,Medium
+C0364,Female,53,52,One year,Direct debit,25.23,1223.51,Yes,No,No,No,0,0.07036878462895,Low
+C0365,Male,52,15,One year,Bank transfer,61.88,893.46,No,Yes,Yes,No,0,0.11254355734859892,Low
+C0366,Male,36,47,Month-to-month,Direct debit,46.02,2142.48,No,Yes,Yes,No,0,0.17394826031076857,Low
+C0367,Female,37,29,Month-to-month,Credit card,93.08,2673.12,No,Yes,Yes,No,0,0.3448622662846664,Medium
+C0368,Female,35,33,Month-to-month,Bank transfer,118.13,3905.91,No,Yes,Yes,No,0,0.42723227322805024,Medium
+C0369,Male,64,52,Two year,Direct debit,45.65,2332.68,No,Yes,No,No,0,0.1029828388444466,Low
+C0370,Male,58,30,Two year,Credit card,85.42,2618.65,Yes,Yes,No,Yes,1,0.16967364096602572,Low
+C0371,Female,66,39,One year,Bank transfer,39.81,1552.6,Yes,Yes,No,No,0,0.09709877811651267,Low
+C0372,Female,31,27,Month-to-month,Credit card,76.53,2065.84,Yes,Yes,Yes,Yes,1,0.29041475657481014,Low
+C0373,Female,32,36,One year,Bank transfer,66.39,2373.65,No,No,No,No,0,0.14075096718234262,Low
+C0374,Female,48,29,One year,Direct debit,117.2,3406.56,No,Yes,Yes,No,0,0.22780194568363887,Low
+C0375,Male,18,38,Month-to-month,Credit card,80.85,3113.55,Yes,Yes,No,Yes,1,0.2781934453726361,Low
+C0376,Female,70,57,Month-to-month,Bank transfer,54.95,3088.79,Yes,Yes,No,Yes,1,0.22797892108371148,Low
+C0377,Female,20,33,Two year,Credit card,31.41,1003.62,Yes,Yes,Yes,No,0,0.08359842364625733,Low
+C0378,Male,33,37,Month-to-month,Credit card,35.12,1284.25,No,No,Yes,No,0,0.14692878687425315,Low
+C0379,Female,40,27,Two year,Direct debit,42.53,1081.02,Yes,Yes,Yes,No,0,0.12835867507266288,Low
+C0380,Male,28,55,Month-to-month,Credit card,45.1,2439.54,Yes,Yes,No,No,0,0.15226350742909012,Low
+C0381,Female,29,33,Month-to-month,Bank transfer,105.06,3443.17,Yes,Yes,No,Yes,1,0.43860409773581727,Medium
+C0382,Female,27,4,Month-to-month,Bank transfer,76.12,348.2,Yes,Yes,No,Yes,1,0.4479144910701637,Medium
+C0383,Female,49,22,Month-to-month,Bank transfer,72.34,1604.61,No,Yes,Yes,Yes,1,0.3327170940803937,Medium
+C0384,Male,33,2,Two year,Bank transfer,31.48,72.64,Yes,Yes,Yes,No,0,0.12336741272672032,Low
+C0385,Male,25,10,Month-to-month,Direct debit,106.01,1102.64,No,Yes,No,Yes,1,0.4888295065652659,Medium
+C0386,Female,55,5,Two year,Credit card,92.28,454.53,Yes,No,No,No,0,0.2723487645032503,Low
+C0387,Male,29,59,Month-to-month,Direct debit,26.77,1598.95,Yes,Yes,Yes,No,0,0.10472436354614696,Low
+C0388,Male,41,10,Two year,Credit card,90.78,902.64,Yes,Yes,Yes,No,0,0.16668206824864895,Low
+C0389,Male,45,33,Month-to-month,Credit card,74.35,2466.82,No,Yes,No,No,0,0.2957555169850312,Low
+C0390,Male,70,54,Two year,Credit card,28.17,1492.04,Yes,Yes,Yes,No,0,0.04549465361773794,Low
+C0391,Male,25,38,One year,Direct debit,65.83,2379.6,Yes,Yes,Yes,No,0,0.0874916342675743,Low
+C0392,Male,45,13,Month-to-month,Credit card,68.47,883.4,Yes,Yes,Yes,No,0,0.2638291598544547,Low
+C0393,Female,53,31,Month-to-month,Direct debit,36.58,1205.12,No,Yes,No,Yes,1,0.3065697233689172,Medium
+C0394,Female,43,47,Two year,Bank transfer,114.57,5431.1,Yes,Yes,No,No,0,0.25579979589405755,Low
+C0395,Male,25,36,Two year,Bank transfer,105.0,3828.27,No,Yes,No,No,0,0.21555848387974919,Low
+C0396,Female,67,45,Month-to-month,Credit card,86.9,3972.31,Yes,No,No,Yes,1,0.3403327265944643,Medium
+C0397,Female,45,24,One year,Direct debit,66.23,1593.95,Yes,Yes,No,No,0,0.17605054455132244,Low
+C0398,Female,45,52,Two year,Bank transfer,61.18,3191.23,Yes,Yes,Yes,No,0,0.09948140891334727,Low
+C0399,Female,54,56,Two year,Direct debit,85.1,4734.72,Yes,Yes,No,No,0,0.1884875724849704,Low
+C0400,Male,58,15,Two year,Direct debit,74.54,1102.3,Yes,Yes,Yes,No,0,0.1676112686239799,Low
+C0401,Female,53,29,One year,Credit card,26.23,791.46,Yes,Yes,No,No,0,0.0909019535094915,Low
+C0402,Female,44,8,Month-to-month,Bank transfer,71.25,630.19,Yes,Yes,Yes,Yes,1,0.3576382352950785,Medium
+C0403,Male,34,5,Month-to-month,Credit card,100.64,496.23,No,Yes,Yes,Yes,1,0.3652082885423593,Medium
+C0404,Male,26,29,Month-to-month,Credit card,65.92,1889.17,Yes,Yes,Yes,Yes,1,0.2122203937844953,Low
+C0405,Female,50,47,One year,Bank transfer,25.2,1184.43,No,Yes,Yes,No,0,0.056290200233693084,Low
+C0406,Female,70,4,One year,Bank transfer,98.63,424.58,Yes,Yes,Yes,Yes,1,0.20426370325440985,Low
+C0407,Female,37,12,Month-to-month,Direct debit,40.14,409.49,Yes,Yes,Yes,No,0,0.30178408027083925,Medium
+C0408,Female,30,45,Two year,Bank transfer,45.86,1948.89,Yes,Yes,No,No,0,0.11463423439689621,Low
+C0409,Female,45,2,One year,Direct debit,36.47,45.41,Yes,Yes,Yes,No,0,0.14448470284099565,Low
+C0410,Female,65,27,One year,Direct debit,53.02,1370.5,Yes,Yes,No,No,0,0.15063183823855253,Low
+C0411,Male,46,31,Month-to-month,Direct debit,95.68,2940.67,Yes,Yes,No,No,0,0.3912650586636837,Medium
+C0412,Female,30,51,Month-to-month,Bank transfer,71.94,3661.55,Yes,Yes,No,Yes,1,0.2866098534151788,Low
+C0413,Female,63,51,Month-to-month,Credit card,40.49,2042.33,Yes,Yes,No,No,0,0.1947097544603835,Low
+C0414,Male,52,36,Month-to-month,Direct debit,107.78,3952.7,No,Yes,No,Yes,1,0.4384660602194935,Medium
+C0415,Male,23,36,Month-to-month,Credit card,107.96,3902.9,No,Yes,Yes,Yes,1,0.31086643101134526,Medium
+C0416,Male,35,26,Month-to-month,Credit card,107.06,2798.58,Yes,Yes,Yes,No,0,0.3158371740065139,Medium
+C0417,Male,68,43,Month-to-month,Bank transfer,43.88,1917.95,Yes,Yes,Yes,No,0,0.1556975036450545,Low
+C0418,Female,22,27,Month-to-month,Credit card,65.12,1701.3,Yes,Yes,No,No,0,0.32126875177064346,Medium
+C0419,Female,64,5,Month-to-month,Credit card,118.5,644.46,Yes,Yes,No,Yes,1,0.5312528189681447,Medium
+C0420,Female,42,20,One year,Bank transfer,97.2,1940.21,Yes,Yes,Yes,No,0,0.17031112883303168,Low
+C0421,Female,19,11,Month-to-month,Direct debit,22.72,283.44,Yes,Yes,Yes,Yes,1,0.269170166083166,Low
+C0422,Female,27,10,Two year,Credit card,26.52,211.61,Yes,Yes,No,No,0,0.1541177387769022,Low
+C0423,Female,47,40,Two year,Bank transfer,66.39,2577.91,Yes,No,Yes,No,0,0.12238785327833267,Low
+C0424,Male,67,38,Month-to-month,Credit card,110.92,4255.85,Yes,Yes,No,No,0,0.37621118588045827,Medium
+C0425,Female,62,6,Month-to-month,Credit card,73.87,462.04,No,Yes,No,No,0,0.444000957499355,Medium
+C0426,Male,22,8,Month-to-month,Direct debit,69.78,513.14,No,Yes,No,Yes,1,0.40568275587202923,Medium
+C0427,Male,50,23,One year,Credit card,30.55,659.17,Yes,Yes,No,No,0,0.0828957455083389,Low
+C0428,Female,18,47,One year,Bank transfer,85.68,4083.23,No,Yes,No,No,0,0.1557063697562164,Low
+C0429,Male,35,26,Month-to-month,Credit card,102.21,2597.99,No,Yes,Yes,No,0,0.31814270807353195,Medium
+C0430,Female,49,46,One year,Direct debit,58.04,2751.97,Yes,Yes,No,No,0,0.12235482305397752,Low
+C0431,Male,64,43,Month-to-month,Direct debit,97.56,4150.05,Yes,Yes,No,No,0,0.3697174331821035,Medium
+C0432,Female,66,12,Month-to-month,Bank transfer,116.45,1429.32,Yes,Yes,Yes,Yes,1,0.4571472843120336,Medium
+C0433,Male,28,26,One year,Direct debit,40.38,1033.45,No,No,Yes,No,0,0.08439790119986385,Low
+C0434,Female,38,13,Month-to-month,Credit card,72.33,970.45,No,Yes,Yes,No,0,0.3410450291909463,Medium
+C0435,Female,43,40,One year,Direct debit,48.71,1921.19,Yes,No,Yes,No,0,0.08869410802340487,Low
+C0436,Female,42,18,Month-to-month,Bank transfer,99.29,1779.08,Yes,Yes,No,Yes,1,0.4646482121082164,Medium
+C0437,Female,39,25,Two year,Direct debit,77.76,1946.05,Yes,Yes,No,No,0,0.23690674367681028,Low
+C0438,Female,44,33,Month-to-month,Direct debit,83.46,2704.07,Yes,Yes,Yes,No,0,0.3399267755603926,Medium
+C0439,Male,66,47,Month-to-month,Direct debit,99.79,4727.17,Yes,Yes,Yes,No,0,0.3036537413640624,Medium
+C0440,Male,30,40,One year,Bank transfer,59.6,2358.34,No,Yes,No,No,0,0.09933387645799564,Low
+C0441,Male,50,60,Month-to-month,Direct debit,111.51,6679.17,Yes,No,Yes,No,0,0.30575253086663684,Medium
+C0442,Female,51,43,Two year,Direct debit,73.3,3102.18,No,No,Yes,No,0,0.15467913123486882,Low
+C0443,Male,58,12,One year,Credit card,35.8,301.48,No,Yes,No,No,0,0.11242210697305857,Low
+C0444,Female,52,44,One year,Bank transfer,89.59,3932.41,No,Yes,No,No,0,0.1721831525052719,Low
+C0445,Female,18,36,One year,Direct debit,99.33,3696.51,Yes,Yes,Yes,No,0,0.16713383520190547,Low
+C0446,Male,38,48,Two year,Bank transfer,51.68,2519.87,Yes,No,Yes,No,0,0.07242092688416821,Low
+C0447,Male,65,4,Two year,Direct debit,105.72,421.92,Yes,Yes,Yes,No,0,0.23836813310113172,Low
+C0448,Female,23,5,One year,Direct debit,110.61,539.91,Yes,Yes,No,No,0,0.29228083560027135,Low
+C0449,Male,45,56,One year,Direct debit,47.69,2671.76,Yes,Yes,No,No,0,0.07200191885022601,Low
+C0450,Female,34,37,Month-to-month,Credit card,118.35,4406.31,Yes,Yes,Yes,Yes,1,0.3826633834541231,Medium
+C0451,Female,22,8,Month-to-month,Credit card,34.07,213.52,Yes,No,No,No,0,0.31610756942768975,Medium
+C0452,Female,48,42,One year,Credit card,40.2,1744.12,Yes,Yes,No,No,0,0.08545206763906853,Low
+C0453,Female,22,49,Month-to-month,Bank transfer,38.42,1918.35,Yes,Yes,Yes,No,0,0.15861883388650289,Low
+C0454,Female,55,28,Month-to-month,Bank transfer,109.4,3099.11,Yes,Yes,Yes,Yes,1,0.39989040643165463,Medium
+C0455,Male,20,31,Month-to-month,Credit card,85.43,2670.25,No,Yes,No,No,0,0.32517488437921876,Medium
+C0456,Male,70,58,Month-to-month,Bank transfer,35.21,2043.16,No,Yes,Yes,Yes,1,0.11780643091398128,Low
+C0457,Female,40,9,One year,Direct debit,64.03,609.91,Yes,Yes,Yes,No,0,0.16232428036161703,Low
+C0458,Female,54,54,Two year,Direct debit,81.53,4432.21,Yes,Yes,No,No,0,0.18522520916082003,Low
+C0459,Male,70,51,Month-to-month,Direct debit,28.35,1428.15,Yes,No,No,No,0,0.1621498324649613,Low
+C0460,Male,54,29,Month-to-month,Credit card,108.24,3110.28,Yes,Yes,No,No,0,0.3831040026584475,Medium
+C0461,Female,27,14,Two year,Bank transfer,100.36,1410.13,Yes,Yes,No,No,0,0.2805723546988897,Low
+C0462,Male,27,40,Month-to-month,Credit card,70.52,2898.25,No,No,No,No,0,0.2611360144068983,Low
+C0463,Female,36,41,Two year,Bank transfer,116.71,4723.15,Yes,Yes,Yes,Yes,1,0.213664934322152,Low
+C0464,Male,34,22,Month-to-month,Direct debit,61.78,1285.78,Yes,Yes,No,Yes,1,0.32323960541983,Medium
+C0465,Female,38,11,Month-to-month,Credit card,118.41,1310.75,Yes,Yes,Yes,Yes,1,0.43627626286532284,Medium
+C0466,Male,31,23,Two year,Bank transfer,86.79,1998.71,Yes,Yes,Yes,No,0,0.1495008741206045,Low
+C0467,Female,26,1,Month-to-month,Bank transfer,83.47,92.14,Yes,Yes,No,No,0,0.4724349585449532,Medium
+C0468,Male,63,46,One year,Direct debit,36.6,1695.8,Yes,No,No,No,0,0.07348461257317074,Low
+C0469,Male,18,37,Two year,Credit card,108.19,3991.87,Yes,Yes,Yes,No,0,0.15095641579112726,Low
+C0470,Female,68,21,Month-to-month,Credit card,62.75,1392.24,Yes,Yes,No,Yes,1,0.350077798169274,Medium
+C0471,Male,62,26,One year,Credit card,36.22,861.67,Yes,Yes,Yes,No,0,0.06399135705905516,Low
+C0472,Female,30,46,Two year,Direct debit,21.26,936.54,Yes,Yes,Yes,No,0,0.07182756582670238,Low
+C0473,Male,21,36,Month-to-month,Credit card,75.98,2730.12,Yes,Yes,Yes,No,0,0.2160067485521794,Low
+C0474,Female,18,54,Two year,Direct debit,72.74,3845.8,No,Yes,No,No,0,0.16935286765770216,Low
+C0475,Male,66,23,One year,Direct debit,91.94,2105.83,Yes,Yes,No,No,0,0.18658591470322022,Low
+C0476,Female,57,57,One year,Direct debit,109.03,6297.78,Yes,Yes,Yes,No,0,0.16186411515124063,Low
+C0477,Male,49,1,One year,Bank transfer,27.94,28.98,Yes,No,No,No,0,0.12623155604251468,Low
+C0478,Female,51,54,Month-to-month,Credit card,93.15,5041.64,Yes,Yes,Yes,No,0,0.271892170033432,Low
+C0479,Male,45,55,Two year,Credit card,38.74,2067.69,Yes,Yes,No,No,0,0.06678741677353754,Low
+C0480,Female,48,51,Two year,Direct debit,105.82,5366.0,Yes,Yes,Yes,Yes,1,0.1984995366618462,Low
+C0481,Female,25,40,One year,Direct debit,101.91,4057.64,No,Yes,Yes,No,0,0.17541825488013976,Low
+C0482,Female,56,15,One year,Credit card,74.08,1095.31,Yes,Yes,No,No,0,0.17712973305907845,Low
+C0483,Male,43,21,One year,Direct debit,91.02,1975.5,Yes,Yes,Yes,No,0,0.1453168571977994,Low
+C0484,Female,51,47,Month-to-month,Credit card,51.44,2445.56,Yes,Yes,Yes,No,0,0.18307195533630408,Low
+C0485,Male,20,9,One year,Bank transfer,67.12,548.51,No,Yes,No,No,0,0.15928210808187224,Low
+C0486,Female,67,53,One year,Direct debit,102.16,5426.81,Yes,No,No,No,0,0.19417936612300624,Low
+C0487,Male,29,9,One year,Credit card,65.93,618.28,Yes,No,Yes,No,0,0.1071323391387091,Low
+C0488,Female,18,10,One year,Direct debit,55.78,614.81,Yes,No,Yes,No,0,0.14551310449031535,Low
+C0489,Male,61,52,Month-to-month,Credit card,69.42,3688.87,Yes,Yes,Yes,No,0,0.17504130103001522,Low
+C0490,Male,22,57,Month-to-month,Credit card,102.82,5809.99,Yes,Yes,No,No,0,0.2956266448271173,Low
+C0491,Female,47,53,Month-to-month,Direct debit,53.52,2796.02,Yes,Yes,Yes,Yes,1,0.2041386938646117,Low
+C0492,Male,47,26,Month-to-month,Bank transfer,37.38,909.0,Yes,Yes,No,Yes,1,0.2303309384601795,Low
+C0493,Male,34,41,One year,Credit card,91.2,3727.5,Yes,Yes,No,No,0,0.12528157297522424,Low
+C0494,Female,65,35,One year,Credit card,102.6,3614.32,Yes,Yes,Yes,No,0,0.15050847562121583,Low
+C0495,Male,64,52,One year,Credit card,30.06,1612.49,Yes,Yes,Yes,No,0,0.037840226458712524,Low
+C0496,Male,40,25,Month-to-month,Bank transfer,43.99,1095.95,No,Yes,Yes,Yes,1,0.20874714833966992,Low
+C0497,Male,32,26,One year,Bank transfer,34.2,873.21,Yes,Yes,Yes,No,0,0.06586362101777697,Low
+C0498,Female,54,11,Month-to-month,Direct debit,54.79,610.28,Yes,Yes,No,Yes,1,0.4128812546106263,Medium
+C0499,Male,38,38,Month-to-month,Bank transfer,65.04,2429.76,Yes,Yes,Yes,No,0,0.20314557235134223,Low
+C0500,Female,31,2,One year,Direct debit,94.88,294.24,Yes,Yes,Yes,No,0,0.219740085120411,Low
