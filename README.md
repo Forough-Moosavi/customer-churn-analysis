@@ -137,8 +137,8 @@ Includes:
 **Recommendation:** Retention offers and loyalty incentives.
 
 ### **2) Long‑Term Contracts Greatly Reduce Churn**
-- One‑year contract churn ≈ **15%**  
-- Two‑year contract churn ≈ **11%**  
+- One‑year contract churn ≈ **11%**  
+- Two‑year contract churn ≈ **15%**  
 **Recommendation:** Promote contract upgrades to improve retention.
 
 ### **3) Customer Tenure Is the Strongest Churn Indicator**
